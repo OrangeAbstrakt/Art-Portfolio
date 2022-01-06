@@ -1,0 +1,297 @@
+.button-holder{
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+.button-text{
+    font-size: 1.35vw;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+}
+
+.btn1{
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding: 15px 30px;
+    overflow: hidden;
+    transition: 0.2s;
+    color: hotpink; 
+    width: 12vw;
+    cursor: pointer;
+    line-height: 0.75;
+    position: absolute;
+    bottom: 85.38587848932677vh;
+    left: 59.375vw;
+}
+
+.btn1:hover{
+    background: hotpink;
+    box-shadow: 0px 0px 10px hotpink,
+                0px 0px 21px hotpink,
+                0px 0px 42px hotpink;
+    transition-delay: 1s;
+    color: white;
+    border: 1px solid hotpink;
+}
+
+.btn1 span{
+    position: absolute;
+    display: block;
+}
+
+.btn1 span:nth-child(1){
+    top: 0px;
+    left: -100%;
+    width: 100%;
+    height: 0.3284072249589491vh;
+    background: linear-gradient(90deg, transparent, hotpink);
+}
+
+.btn1:hover span:nth-child(1){
+    left: 200%;
+    transition: 0.75s;
+}
+
+.btn1 span:nth-child(3){
+    bottom: 0px;
+    right: -200px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, hotpink);
+}
+
+.btn1:hover span:nth-child(3){
+    right: 200%;
+    transition: 0.75s;
+    transition-delay: 0.5s;
+}
+
+.btn1 span:nth-child(2){
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, hotpink);
+}
+
+.btn1:hover span:nth-child(2){
+    top: 100%;
+    transition: 0.75s;
+    transition-delay: 0.25s;
+}
+
+.btn1 span:nth-child(4){
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, hotpink);
+}
+
+.btn1:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 0.75s;
+    transition-delay: 0.75s;
+}
+
+.btn2{
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding: 15px 30px;
+    overflow: hidden;
+    transition: 0.2s;
+    color: aquamarine; 
+    width: 12vw;
+    cursor: pointer;
+    line-height: 0.75;
+    position: absolute;
+    bottom: 85.38587848932677vh;
+    left: 72vw;
+}
+
+.btn2:hover{
+    background: aquamarine;
+    box-shadow: 0px 0px 10px aquamarine,
+                0px 0px 21px aquamarine,
+                0px 0px 42px aquamarine;
+    transition-delay: 1s;
+    color: white;
+    border: 1px solid aquamarine;
+}
+
+.btn2 span{
+    position: absolute;
+    display: block;
+}
+
+.btn2 span:nth-child(1){
+    top: 0px;
+    left: -200px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, aquamarine);
+}
+
+.btn2:hover span:nth-child(1){
+    left: 200%;
+    transition: 0.75s;
+}
+
+.btn2 span:nth-child(3){
+    bottom: 0px;
+    right: -200px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, aquamarine);
+}
+
+.btn2:hover span:nth-child(3){
+    right: 200%;
+    transition: 0.75s;
+    transition-delay: 0.5s;
+}
+
+.btn2 span:nth-child(2){
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, aquamarine);
+}
+
+.btn2:hover span:nth-child(2){
+    top: 100%;
+    transition: 0.75s;
+    transition-delay: 0.25s;
+}
+
+.btn2 span:nth-child(4){
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, aquamarine);
+}
+
+.btn2:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 0.75s;
+    transition-delay: 0.75s;
+}
+
+.btn3{
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding: 15px 30px;
+    overflow: hidden;
+    transition: 0.2s;
+    color: orange; 
+    width: 12vw;
+    cursor: pointer;
+    line-height: 0.75;
+    position: absolute;
+    bottom: 85.38587848932677vh;
+    left: 85vw;
+}
+
+
+.btn3:hover{
+    background: orange;
+    box-shadow: 0px 0px 10px orange,
+                0px 0px 21px orange,
+                0px 0px 42px orange;
+    transition-delay: 1s;
+    color: white;
+    border: 1px solid orange;
+}
+
+.btn3 span{
+    position: absolute;
+    display: block;
+}
+
+.btn3 span:nth-child(1){
+    top: 0px;
+    left: -200px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, orange);
+}
+
+.btn3:hover span:nth-child(1){
+    left: 200%;
+    transition: 0.75s;
+}
+
+.btn3 span:nth-child(3){
+    bottom: 0px;
+    right: -200px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, orange);
+}
+
+.btn3:hover span:nth-child(3){
+    right: 200%;
+    transition: 0.75s;
+    transition-delay: 0.5s;
+}
+
+.btn3 span:nth-child(2){
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, orange);
+}
+
+.btn3:hover span:nth-child(2){
+    top: 100%;
+    transition: 0.75s;
+    transition-delay: 0.25s;
+}
+
+.btn3 span:nth-child(4){
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, orange);
+}
+
+.btn3:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 0.75s;
+    transition-delay: 0.75s;
+}
+
+.button-text2{
+    position: absolute;
+    left: 15px;
+}
+
+
+@media (max-width: 600px) {
+    .btn1{
+        left: 150px;
+    }
+    .btn2{
+        left: 230px;
+    }
+    .btn3{
+        left: 310px;
+    }
+}
